@@ -26,7 +26,7 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 3.2em;
+  font-size: 4.0em;
   font-weight: bold;
   line-height: 1.2;
   margin: 100px 0 20px;
@@ -37,7 +37,7 @@ body {
 }
 
 .hero-text p {
-  font-size: 1.3em;
+  font-size: 1.5em;
   color: #e0f7fa;
   margin: 0;
 }
