@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vision & Mission – Unique Minds Group</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <img src="https://justburchy.github.io/umg-site/logo.png" alt="Unique Minds Group Logo" class="logo" />
+
+  <section class="vision-section">
+    <h1>Changing the world <span class="bold">one mind at a time</span></h1>
+
+    <div class="vision-cards">
+      <div class="vision-card">
+        <p><strong>OUR VISION</strong> is to reshape the workplace into an environment where neurodiversity is not only accepted but valued as a strength. We aspire to create a world where different minds can thrive and succeed, driving innovation and understanding across industries.</p>
+      </div>
+      <div class="vision-card">
+        <p><strong>OUR MISSION</strong> is to transform organizations by optimizing neurodiversity through education and practice, demonstrating the strengths of neurodivergent individuals and setting new standards for workplace culture and productivity.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
