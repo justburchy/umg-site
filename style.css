@@ -11,9 +11,7 @@ body {
 }
 
 .logo-container {
-  position: absolute;
-  top: 30px;
-  left: 30px;
+  margin-bottom: 40px;
 }
 
 .logo {
