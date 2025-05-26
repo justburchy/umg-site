@@ -157,7 +157,7 @@ body.home .hero-text h1 {
 
 /* ---------- Services Page ---------- */
 .services-section {
-  padding: 60px 40px;
+  padding: 40px 40px;
   text-align: center;
 }
 
@@ -176,7 +176,7 @@ body.home .hero-text h1 {
 
 .service-card {
   background-color: white;
-  color: #1e88e5;
+  color: #fff;
   border-radius: 16px;
   padding: 20px;
   max-width: 300px;
