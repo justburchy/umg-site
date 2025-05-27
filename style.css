@@ -133,7 +133,7 @@ body.home .hero-text h1 {
 
 /* ---------- About Page ---------- */
 .about-umg {
-      padding: 20px 30px;
+      padding: 20px 20px;
       text-align: left;
 }
 
@@ -162,7 +162,7 @@ body.home .hero-text h1 {
       display: flex;
       flex-direction: column;
       gap: 30px;
-      max-width: 1000px;
+      max-width: 750px;
       margin: 40px auto 0;
 }
 
@@ -170,7 +170,7 @@ body.home .hero-text h1 {
       background-color: #d8f3dc;
       color: #263238; 
       border-radius: 20px;
-      padding: 30px 40px;
+      padding: 30px 30px;
       font-size: 1.2em;
       line-height: 1.6;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
