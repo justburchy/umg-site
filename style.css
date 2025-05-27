@@ -143,6 +143,11 @@ body.home .hero-text h1 {
 }
 
 .about-umg h2 {
+      font-size: 2em;
+      color: white;
+}
+
+.about-umg p {
       font-size: 1.5em;
       color: white;
 }
