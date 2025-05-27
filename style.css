@@ -59,6 +59,11 @@ ul.nav-links li a:hover {
   border-bottom: 2px solid #fdbd68;
 }
 
+ul li .cta-button {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 .cta-button {
       background-color: #fe6d73;
       color: white;
