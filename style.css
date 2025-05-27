@@ -142,6 +142,11 @@ body.home .hero-text h1 {
       color: white;
 }
 
+.about-umg h2 {
+      font-size: 1.5em;
+      color: white;
+}
+
 /* ---------- Vision Page ---------- */
 .vision-section {
       padding: 30px 30px;
@@ -156,7 +161,7 @@ body.home .hero-text h1 {
 .vision-cards {
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      gap: 30px;
       max-width: 1000px;
       margin: 40px auto 0;
 }
