@@ -1,3 +1,4 @@
+/* === SHARED LAYOUT === */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  line-height: 1.6;
+  line-height: 1.35;
   color: #333;
 }
 
@@ -20,6 +21,43 @@ body {
   align-items: center;
   padding: 1em 2em;
   z-index: 1000;
+}
+
+.hamburger {
+  display: none;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .nav a {
+    margin: 0.5em 0;
+  }
 }
 
 .logo {
@@ -41,20 +79,21 @@ body {
 }
 
 .hero {
-  padding: 10em 2em;
+  padding: 3em 2em;
   background: #1e88e5;
   color: white;
   text-align: center;
 }
 
 .hero h1 {
-  font-size: 5em;
-  margin-bottom: 0.5em;
+  font-size: 4em;
   text-align: Center;
 }
 
 .hero umh1 {
+  font-size: 4em;
   color: #ff5f57;
+  margin-bottom: 2em;
 }
 
 .hero p {
@@ -65,11 +104,11 @@ body {
 .btn-primary {
   background: #fe6d73;
   color: white;
-  padding: 0.75em 1.5em;
+  padding: .75em 1.5em;
   border: none;
   border-radius: 4px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .services {
@@ -202,8 +241,5 @@ footer {
   color: white;
 }
 
-/* === SHARED LAYOUT === */
-/* === BUTTONS === */
-/* === HOMEPAGE === */
 /* === OCU FRAMEWORK === */
 /* === MEDIA QUERIES === */
