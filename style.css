@@ -261,6 +261,13 @@ body.home .hero-text h1 {
   margin-bottom: 15px;
 }
 
+.ocu-section li {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 15px;
+}
+
+
 
 /* ---------- MOBILE RESPONSIVENESS ---------- */
 @media (max-width: 768px) {
