@@ -232,8 +232,9 @@ body.home .hero-text h1 {
 
 /* ---------- OCU Page ---------- */
 .ocu-section {
+  background: #fff;
   padding: 10px 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .ocu-section h1 {
