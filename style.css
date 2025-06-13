@@ -1,298 +1,202 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #1e88e5;
-  color: white;
-}
-
-body-ocu {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: #fff;
-  color: black;
-}
-
-/* ---------- Header & Footer ---------- */
-header {
-  background: #fff;
-  color: #000;
-  padding: 1rem;
-  text-align: center;
-}
-
-footer {
-  background: #1e88e5;
-  text-align: center;
-  padding: 1rem;
-}
-
-/* ---------- Navigation bar ---------- */
-nav a {
-  color: black;
-  margin: 0 1rem;
-  text-decoration: none;
-}
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem;
-  flex-wrap: nowrap;
-}
-ul.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
+* {
   margin: 0;
   padding: 0;
-  flex-wrap: wrap;
-}
-ul.nav-links li a {
-  text-decoration: none;
-  color: white;
-  font-weight: 500;
-}
-ul.nav-links li a:hover {
-  border-bottom: 2px solid #fdbd68;
+  box-sizing: border-box;
 }
 
-ul li .cta-button {
-  display: inline-block;
-  margin-top: 0.5rem;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  color: #333;
 }
 
-.cta-button {
-      background-color: #fe6d73;
-      color: white;
-      padding: 0.5rem 1rem;
-      border: none;
-      border-radius: 4px;
-      font-weight: bold;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-.cta-button:hover {
-      background-color: #f76f2d;
-    }
-
-/* ---------- Section ---------- */
-section {
-  padding: 3rem 2rem;
-  max-width: 1000px;
-  margin: auto;
-}
-
-.home-section {
-  padding: 40px 40px;
-  min-height: 80vh;
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: flex-start;
-}
-
-/* ---------- Hero Text ---------- */
-.hero-wrapper {
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  padding: 1em 2em;
+  z-index: 1000;
 }
 
 .logo {
-  height: 160px;
-  width: auto;
-}
-
-.hero-text h1 {
-  font-size: 6em;
-  font-weight: bold;
-  line-height: 1.1;
-  margin: 0;
-}
-
-.dot {
-  color: #ff5f57;
-}
-
-.hero-text p {
   font-size: 1.5em;
-  color: #e0f7fa;
-  margin-top: 10px;
+  font-weight: bold;
 }
 
-body.inner .hero-text h1 {
-  margin-top: 0; 
+.nav a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #333;
 }
 
-body.home .hero-text h1 {
-  margin-top: 3rem; 
-}
-
-/* ---------- About Page ---------- */
-.about-umg {
-      padding: 20px 20px;
-      text-align: left;
-}
-
-.about-umg h1 {
-      font-size: 2.5em;
-      color: white;
-}
-
-.about-umg h2 {
-      font-size: 2em;
-      color: white;
-}
-
-.about-umg p {
-      font-size: 1.2em;
-      color: white;
-}
-
-/* ---------- Vision Page ---------- */
-.vision-section {
-      padding: 30px 30px;
-      text-align: center;
-}
-
-.vision-section h1 {
-      font-size: 2.5em;
-      color: white;
-}
-
-.vision-cards {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-      max-width: 750px;
-      margin: 40px auto 0;
-}
-
-.vision-card {
-      background-color: #d8f3dc;
-      color: #263238; 
-      border-radius: 20px;
-      padding: 30px 30px;
-      font-size: 1.2em;
-      line-height: 1.6;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* ---------- Services Page ---------- */
-.services-section {
-  padding: 10px 10px;
-  text-align: center;
-}
-
-.services-section h1 {
-  font-size: 2.8em;
+.nav .cta {
+  background: #fe6d73;
   color: white;
-  margin-bottom: 30px;
+  padding: 0.5em 1em;
+  border-radius: 4px;
 }
 
-.services-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.service-card {
-  background-color: white;
-  color: #000000;
-  border-radius: 16px;
-  padding: 20px;
-  flex: 1 1 250px;
-  max-width: 250px;
+.hero {
+  padding: 10em 2em;
+  background: #1e88e5;
+  color: white;
   text-align: center;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
 }
 
-.service-card:hover {
-  transform: translateY(-4px);
+.hero h1 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  text-align: Center;
 }
 
-.service-card img {
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+.btn-primary {
+  background: #fe6d73;
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.services {
+  padding: 3em 2em;
+  background: #fff;
+  text-align: center;
+}
+
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.service-cards img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-.service-card h3 {
-  font-size: 1.3em;
-  margin-bottom: 10px;
+.card {
+  background: #f9f9f9;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
-.service-card p {
-  font-size: 1em;
-  margin-bottom: 15px;
+.about {
+  padding: 3em 2em;
+  background: #c2d4b3;
+  text-align: center;
 }
 
+.statements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 3em;
+}
 
-/* ---------- OCU Page ---------- */
-.ocu-section {
-  background: #fff;
-  padding: 10px 10px;
+.statements .card {
+  background: #f0f0f0;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 500px;
+  flex: 1 1 300px;
   text-align: left;
 }
 
-.ocu-section h1 {
-  font-size: 2.8em;
-  color: black;
-  margin-bottom: 30px;
+.contact {
+  padding: 3em 2em;
+  background: #fff;
+  text-align: center;
 }
 
-.ocu-section h2 {
-  font-size: 2.0em;
-  color: black;
-  margin-bottom: 10px;
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
 
-.ocu-section h3 {
-  font-size: 1.3em;
-  color: black;
-  margin-bottom: 10px;
+input, textarea {
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
 }
 
-.ocu-section p {
-  font-size: 1em;
-  color: black;
-  margin-bottom: 15px;
+footer {
+  background: #333;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
 }
 
-.ocu-section li {
-  font-size: 1em;
-  color: black;
-  margin-bottom: 15px;
+.team {
+  margin-top: 2em;
 }
 
-
-
-/* ---------- MOBILE RESPONSIVENESS ---------- */
-@media (max-width: 768px) {
-  .home-section {
-    padding: 40px 20px;
-  }
-
-  .logo {
-    height: 80px;
-  }
-
-  .hero-text h1 {
-    font-size: 2em;
-  }
-
-  .hero-text p {
-    font-size: 1em;
-  }
-  
-/** .services-grid {
-    flex-direction: column;
-    align-items: center;
-  } **/
+.team h3 {
+  margin-bottom: 1em;
+  font-size: 1.5em;
 }
 
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.member {
+  text-align: center;
+  max-width: 200px;
+}
+
+.member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #007acc;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  background: #1e88e5;
+  color: white;
+  padding: 2em;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 1em;
+}
+
+.footer-links a {
+  color: #ccc;
+  margin: 0 1em;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.footer-links a:hover {
+  color: white;
+}
 
 /* === SHARED LAYOUT === */
 /* === BUTTONS === */
