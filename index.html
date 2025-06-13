@@ -2,24 +2,129 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Unique Minds Group</title>
-<link rel="stylesheet" href="style.css" />
-<link rel="icon" href="favicon.png" type="image/png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unique Minds Group Home</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" href="favicon.png" type="image/png" />
 </head>
-  
 <body>
-  <div id="header"></div>
-  <section class="home-section">
-    <div class="hero-text">
-      <img src="logo.png" alt="Unique Minds Group Logo" class="logo" />
-      <h1>It's our mission<br>to solve problems<br>with unique minds<span class="dot">.</span></h1>
-      <br></br>
-      <p>Let's get started with <a href="services.html">yours</a>.</p>
+  <header class="header">
+    <div class="logo">Unique Minds Group</div>
+    <nav class="nav">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="cta">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Transformation Through Dynamic Consulting</h1>
+    <p>Let's change the world one mind at a time.</p>
+    <a href="#contact" class="btn-primary">Get In Touch</a>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Core Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="https://justburchy.github.io/umg-site/service1.png" alt="PMO Consulting">
+        <h3>PMO Micro-Consulting</h3>
+        <p>Streamline project success with tailored micro-consulting for PMOs and delivery teams.</p>
+      </div>
+      <div class="card">
+        <img src="https://justburchy.github.io/umg-site/service2.png" alt="Training">
+        <h3>Neuroinclusivity Training</h3>
+        <p>Build inclusive cultures by understanding and valuing neurodiversity in your teams.</p>
+      </div>
+      <div class="card">
+        <img src="https://justburchy.github.io/umg-site/service3.png" alt="Individual Coaching">
+        <h3>Individual Coaching</h3>
+        <p>Personalized leadership and professional development coaching with tangible outcomes.</p>
+      </div>
+      <div class="card">
+        <img src="https://justburchy.github.io/umg-site/service4.png" alt="The OCU Framework">
+        <h3>The OCU Framework™</h3>
+        <p>Unlock clarity and resiliency using our proprietary framework for sustainable change.</p>
+      </div>
     </div>
   </section>
 
-  <div id="footer"></div>
+<section id="about" class="about">
+  <h2>About Us</h2>
+  <br></br>
+  <section class="about-umg">
+    <p>At <b>Unique Minds Group</b>, we help organizations embrace different ways of thinking to unlock untapped potential and spark meaningful change. Our approach blends practical experience with a deep belief that workplace culture thrives when people are encouraged to show up fully as themselves.</p>
+  </section>
+  <br></br>  
+<div class="statements">
+  <div class="card">
+    <h3>Our Vision</h3>
+    <p>To reshape the workplace into an environment where neurodiversity is not only accepted but valued as a strength. We aspire to create a world where different minds can thrive and succeed, driving innovation and understanding across industries.</p>
+  </div>
+  <div class="card">
+    <h3>Our Mission</h3>
+    <p>To empower professionals and organizations with actionable strategies, inclusive training, and transformative coaching aligned with The OCU Framework™, setting new standards for workplace culture and productivity.</p>
+  </div>
+</div>
+
+
+  
+<div class="team">
+    <h3>Meet Our Team</h3>
+    <div class="team-members">
+      <div class="member">
+        <img src="https://justburchy.github.io/umg-site/jen.png" alt="Jen Burch">
+        <h4>Jen Burch</h4>
+        <p>Founder & Principal Consultant, Creator of The OCU Framework™</p>
+        <p><a href="https://www.linkedin.com/in/jenniferaburch/" style="color:black;"><b>LinkedIn</b></a></p>
+      </div>
+      <div class="member">
+        <img src="https://justburchy.github.io/umg-site/kim.png" alt="Kim Jacobson">
+        <h4>Kim Jacobson</h4>
+        <p>Founder & Principal Consultant, Neuroinclusivity Lead</p>
+         <p><a href="https://www.linkedin.com/in/kimberlybellajacobson/" style="color:black;"><b>LinkedIn</b></a></p>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <!-- Tally form embed -->
+<iframe data-tally-src="https://tally.so/embed/wM5QQ0?alignLeft=1&hideTitle=1&whiteBackground=1&dynamicHeight=1"
+        loading="lazy"
+        width="75%"
+        height="400"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        title="Contact Form"></iframe>
+
+<script>
+  var d=document,w="https://tally.so/widgets/embed.js",v=function(){
+    if(!d.getElementById("tally-embed")){
+      var s=d.createElement("script");
+      s.src=w;
+      s.id="tally-embed";
+      d.body.appendChild(s);
+    }
+  };
+  v();
+</script>
+  </section>
+
   <script src="script.js"></script>
-  </body>
+
+<footer>
+  <p>&copy; 2025 Unique Minds Group. All rights reserved.</p>
+  <!--<nav class="footer-links">
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Site Map</a>
+  </nav>-->
+</footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
