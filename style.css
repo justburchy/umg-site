@@ -5,15 +5,12 @@ body {
   color: white;
 }
 
-/* Light background with dark font.
-body {
-  font-family: sans-serif;
+body-ocu {
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #222;
-}*/
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: white;
+}
 
 /* ---------- Header & Footer ---------- */
 header {
